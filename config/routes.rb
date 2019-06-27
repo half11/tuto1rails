@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-  get 'prueba', to: 'prueba#metodoprueba'
+  #get 'prueba', to: 'prueba#metodoprueba'
+  get 'probar', to: 'control#saludo'
 end
