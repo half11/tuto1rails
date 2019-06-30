@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2019_06_28_035130) do
 
-  create_table "images", force: :cascade do |t|
+  create_table "images", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "description"
     t.integer "likes_counter"
     t.datetime "created_at", null: false
